@@ -136,11 +136,11 @@ body img {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Arial Black", sans-serif;
+  font-family: "Archivo Black", sans-serif;
   margin-top: 0;
   text-transform: uppercase;
   color: #000;
-  font-weight: 700;
+  font-weight: 400;
 }
 
 h1 {
@@ -3828,8 +3828,8 @@ p{color: #292828;}
 
 .si-logo{
   font-size: 30px;
-  font-family: 'Arial Black', sans-serif;
-  font-weight: 600;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 400;
   color: #f7d61f;
   letter-spacing: -.9px;
 

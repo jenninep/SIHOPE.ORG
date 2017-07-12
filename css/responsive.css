@@ -214,6 +214,9 @@
   #ytb-wrap .hero-text {
     font-size: 76px;
   }
+  .si-logo{
+     padding-top: 4%;
+  }
 }
 @media(max-width: 800px) {
 }
@@ -324,7 +327,7 @@
 
 }
 @media (max-width: 732px) {
-    }
+}
 @media (max-width: 736px) {
   
 }
@@ -374,12 +377,10 @@
     font-size: 27px;
     padding: 25px;
   }
-  
-
 }
 @media (max-width: 375px) {
   
-  }
+}
 
 @media (max-width: 360px) {
  

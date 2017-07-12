@@ -496,6 +496,7 @@ p {
   }
   .logo-wrap > a {
     height: 60px;
+    padding-left: 6%;
   }
   .navbar-nav {
     width: 100%;
@@ -514,7 +515,7 @@ p {
   margin-top: 13px;
   border: none;
   z-index: 50;
-  margin-right: 5px;
+  padding-right: 6%;
 }
 
 .navbar-toggle .icon-bar {
@@ -1540,18 +1541,7 @@ p {
   margin-top: 15px;
 }
 
-/* Process
--------------------------------------------------------*/
-/*5 columns*/
-.col-xs-5ths,
-.col-sm-5ths,
-.col-md-5ths,
-.col-lg-5ths {
-  position: relative;
-  min-height: 1px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
+
 
 .col-xs-5ths {
   width: 20%;
@@ -1957,21 +1947,6 @@ p {
   position: static;
 }
 
-/* Clients
--------------------------------------------------------*/
-.client-logo {
-  border-bottom: 1px solid #dedede;
-  border-right: 1px solid #dedede;
-  text-align: center;
-}
-
-.client-logo:last-child {
-  border-right: none;
-}
-
-.second-row .client-logo {
-  border-bottom: none;
-}
 
 /* Contact
 -------------------------------------------------------*/
@@ -3856,6 +3831,8 @@ p{color: #292828;}
   font-family: 'Arial Black', sans-serif;
   font-weight: 600;
   color: #f7d61f;
+  letter-spacing: -.9px;
+
 }
 .title{
   letter-spacing: -1px;
@@ -3889,6 +3866,10 @@ p{color: #292828;}
 
 .help-btn-img{
   width: 100%;
+}
+
+.width-100{
+  width: 100%
 }
 
 

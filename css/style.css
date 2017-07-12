@@ -3830,7 +3830,7 @@ p{color: #292828;}
   font-size: 30px;
   font-family: 'Archivo Black', sans-serif;
   font-weight: 400;
-  color: #f7d61f;
+  color: #f4ec3d;
   letter-spacing: -.9px;
 
 }
@@ -3854,7 +3854,9 @@ p{color: #292828;}
   padding: 2% 5%;
 }
 .lawn-banner{
-  padding-top: 3%;
+  padding-top: 8%;
+  text-align: center;
+  background-color: #f4ec3d;
 }
 .help-title-text{
   font-size: 36px;
@@ -3871,9 +3873,7 @@ p{color: #292828;}
 .width-100{
   width: 100%
 }
-body{
-    overflow-x:hidden;
-}
+
 
 
 

@@ -1,3 +1,17 @@
+@media (min-width: 1600px) {
+  .navbar-nav > li > a{
+    font-size: 17px;
+  }
+  .lawn-banner{
+    padding-top: 6%;
+  }
+  .si-text{
+    font-size: 21px;
+    padding-top: 2%;
+    line-height: 28px;
+  }
+}
+
 @media (max-width: 1200px) {
   .navbar-nav > li > a {
     padding: 0px 12px;
@@ -391,6 +405,11 @@
   }
   .footer-top{
     padding: 23px 0 70px;
+  }
+  .nyc-btn {
+    font-size: 14px;
+    padding: 7px 27px;
+    margin-top: 10px;
   }
 
 }

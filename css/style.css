@@ -3856,7 +3856,6 @@ p{color: #292828;}
 }
 .title{
   letter-spacing: -1px;
-  padding-top: 4%;
   font-size: 30px;
 }
 .subtitle{
@@ -3895,15 +3894,17 @@ p{color: #292828;}
 .width-100{
   width: 100%
 }
-.help-btn-nav-right{
+
+
+.help-btn-nav{
   position: absolute;
-  top: 10%;
-  right: 10%;
-}
-.help-btn-nav-left{
-  position: absolute;
-  top: 10%;
+  bottom: 5%;
   left: 10%;
+  color: #f4ec3d;
+}
+
+.navbar-nav{
+  float: right;
 }
 
 

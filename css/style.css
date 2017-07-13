@@ -3770,10 +3770,6 @@ Main components
   transform: scale(1.4);
 }
 
-
-.navbar-toggle:focus .icon-bar, .navbar-toggle:hover .icon-bar {
-    background-color: black;
-}
 #contact{
   background-color: #fff;
 }
@@ -3825,6 +3821,30 @@ p{color: #292828;}
 #footer-logo{
   width: inherit;
 }
+.socials.footer-socials i {
+  width: 37px;
+  height: 37px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #3e3c3c;
+  color: #dbdbdb;
+  line-height: 37px;
+  text-align: center;
+  font-size: 14px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.socials.footer-socials a {
+  margin: 0 2px;
+}
+
+.socials.footer-socials a:hover i {
+  color: #fff;
+  background-color: #bfa67a;
+}
 
 .si-logo{
   font-size: 30px;
@@ -3848,7 +3868,8 @@ p{color: #292828;}
 .help-btn-text{
   color: #ababab;
   padding: 5%;
-  font-size: 17px;
+  font-size: 20px;
+  line-height: 26px;
 }
 .right-side{
   padding: 2% 5%;
@@ -3861,6 +3882,7 @@ p{color: #292828;}
 .help-title-text{
   font-size: 36px;
   padding-top: 5%;
+  padding-bottom: 2%;
 }
 .da-photo{
   width: 59%;
@@ -3873,6 +3895,17 @@ p{color: #292828;}
 .width-100{
   width: 100%
 }
+.help-btn-nav-right{
+  position: absolute;
+  top: 10%;
+  right: 10%;
+}
+.help-btn-nav-left{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+
 
 
 

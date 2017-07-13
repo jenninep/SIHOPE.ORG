@@ -377,9 +377,27 @@
     font-size: 27px;
     padding: 25px;
   }
+  .help-btn-text{
+    color: #ababab;
+    padding: 0;
+    font-size: 15px;
+  }
+  .help-title-text{
+    font-size: 25px;
+    padding-top: 2%;
+  }
+  .help-btn{
+    font-size: 13px;
+  }
+  .footer-top{
+    padding: 23px 0 70px;
+  }
+
 }
 @media (max-width: 375px) {
-  
+  .help2-img{
+    width: 425px;
+  }
 }
 
 @media (max-width: 360px) {
@@ -387,7 +405,19 @@
 }
 
 @media (max-width: 320px) {
-  
+  .help1-img{
+     width: 419px;
+  }
+  .help2-img{
+    width: 460px;
+  }
+  .help3-img{
+    width: 402px;
+  }
+  .help4-img{
+    width: 460px;
+  }
+ 
 }
 
 

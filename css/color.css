@@ -63,3 +63,7 @@ textarea:focus {
 .dropdown-menu {
 	border-top-color: #bfa67a;
 }
+
+.grey-text{
+	color: grey;
+}

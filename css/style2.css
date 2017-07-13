@@ -18,10 +18,18 @@
 	background-image: url(nyc-banner.jpg);
     background-size: cover;
     text-align: center;
+    padding-top: 5%;
 }
 .nyc-banner-div{
 	padding: 3%;
 }
 .nyc-title{
 	color: #fae136;
+}
+.nyc-sub{
+	padding: 2% 4% 0 0;
+	line-height: 29px;
+}
+.nyc-wrap{
+	padding-left: 5%;
 }

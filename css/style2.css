@@ -27,11 +27,11 @@
 	color: #fae136;
 }
 .nyc-sub{
-	padding: 2% 4% 0 0;
+	padding: 2% 4%;
 	line-height: 29px;
 }
 .nyc-wrap{
-	padding-left: 5%;
+	padding: 0 5% 0 5%;
 }
 .nyc-icon{
   width: 40px;

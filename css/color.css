@@ -67,3 +67,6 @@ textarea:focus {
 .grey-text{
 	color: #565656;
 }
+.bg-white{
+	background-color: white;
+}

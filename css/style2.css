@@ -1,0 +1,31 @@
+.nycDiv{
+  background-image: url("nyc-banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron{
+  background-color: transparent;
+  color: #fae136;
+  padding: 8%;
+}
+.scroll-down {
+	background-color: rgb(169, 169, 166);
+	left: 50%;
+   }
+
+#nycHeader{
+	font-size: 40px;
+}
+
+.nyc-btn{
+	font-size: 18px;
+	padding: 13px 27px;
+	margin-top: 10px;
+}
+
+.nyc-header{
+	display: inline-flex;
+}
+.nyc-logo{
+	height: 100%;
+}

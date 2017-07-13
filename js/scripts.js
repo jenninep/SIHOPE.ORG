@@ -18,7 +18,7 @@
         initOwlCarousel();
         initTextrotator();
         initOnepagenav();
-        initPiechart();
+        // initPiechart();
         
     });
 

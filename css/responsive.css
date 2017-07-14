@@ -231,6 +231,9 @@
   .si-logo{
      padding-top: 2%;
   }
+  .vertical-row {
+    display: none;
+  }
 }
 @media(max-width: 800px) {
 }
@@ -417,6 +420,9 @@
   }
   .nyc-banner-div{
     padding: 9% 0px;
+  }
+  .chasi-div {
+    padding: 5% 9% 2% 5%;
   }
 
 }

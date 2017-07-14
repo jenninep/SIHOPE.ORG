@@ -54,6 +54,21 @@
     padding: 10%;
     font-size: 17px;
 }
+.chasi-div{
+	padding: 5% 0% 2% 5%;
+	/*border-right: 1px solid #5f656d; /* Border on the right */*/
+}
+
+.vertical-row {
+	float: left;
+	height: 270px;
+	border-right: 1px solid grey;
+	margin-top: 4%;
+	margin-left: -5%;
+} 
+
+.recovery-text{
+	padding: 2% 1% 3% 4%;
 
 
 

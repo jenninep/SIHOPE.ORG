@@ -28,7 +28,7 @@
 }
 
 .section-wrap, .section-wrap-mp {
-  padding: 120px 0;
+  padding: 100px 0 80px 0;
   overflow: hidden;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -169,7 +169,7 @@ h6 {
 
 p {
   font-size: 15px;
-  color: #7a7a7a;
+  color: #565656;
   font-weight: normal;
   line-height: 25px;
 }
@@ -3782,7 +3782,6 @@ input, textarea{font-size: 13px;}
     padding: 34px;
 }
 
-p{color: #292828;}
 
 .service-item{
   padding-top: 25px;

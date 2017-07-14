@@ -72,11 +72,23 @@
 }
 
 .recovery-text-y{
-	padding: 7% 1% 3% 4%;
+	padding: 9% 1% 3% 4%;
 }
 .y-div{
 	padding: 4% 0% 4% 5%;
 }
+
+.address-pad{
+	padding: 0 16%;
+}
+
+.vertical-row-y {
+	float: left;
+	height: 317px;
+	border-right: 1px solid grey;
+	margin-top: 4%;
+	margin-left: -5%;
+} 
 
 
 

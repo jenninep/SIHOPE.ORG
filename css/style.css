@@ -168,7 +168,7 @@ h6 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
   color: #1f1f1f;
   font-weight: normal;
   line-height: 25px;
@@ -3902,6 +3902,9 @@ input, textarea{font-size: 13px;}
 }
 .font18{
   font-size: 18px;
+}
+.group-pad{
+  padding: 4%;
 }
 
 

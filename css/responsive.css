@@ -10,6 +10,10 @@
     padding-top: 2%;
     line-height: 28px;
   }
+  p{
+    font-size: 17px;
+    line-height: 32px;
+  }
 }
 
 @media (max-width: 1200px) {

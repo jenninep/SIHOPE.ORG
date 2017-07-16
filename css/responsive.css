@@ -447,6 +447,15 @@
   .ymca-logo, .chasi-logo, .chris-logo{
     padding-top: 12%;
   }
+  .naloxone-png {
+    position: absolute;
+    top: 5%;
+    max-width: 54%;
+    right: 24%;
+  }
+  .section-wrap {
+    padding: 40px 0;
+}
 
 }
 @media (max-width: 375px) {

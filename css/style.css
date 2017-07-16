@@ -3889,7 +3889,6 @@ input, textarea{font-size: 13px;}
   width: 100%
 }
 
-
 .help-btn-nav{
   position: absolute;
   bottom: 3%;
@@ -3905,6 +3904,9 @@ input, textarea{font-size: 13px;}
 }
 .group-pad{
   padding: 4%;
+}
+.color-lite{
+  color:#efeeee;
 }
 
 

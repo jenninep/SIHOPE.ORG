@@ -24,7 +24,7 @@
 	padding: 3%;
 }
 .nyc-title{
-	color: #fae136;
+	color:white;
 }
 .nyc-sub{
 	padding: 2% 4%;
@@ -79,7 +79,7 @@
 }
 
 .address-pad{
-	padding: 0 16%;
+	/*padding: 0 16%;*/
 }
 
 .vertical-row-y {
@@ -159,8 +159,27 @@
 	color: #fae136;
 	padding: 0px 20px 0 0;
 }
+.yellow-text{
+	color: #f4ec3d;
+}
+.nyc-subtitle{
+	color: white;
+	font-size: 22px;
+	padding: 15px 0;
+}
+.loved-top-banner{
+	background-image: url(loved-top-banner.jpg);
+    background-size: cover;
+    text-align: center;
+    padding-top: 20%;
+}
 
-
+.lt-grey-text{
+	color: #a5a4a4;
+}
+.recovery-logo{
+	padding: 2%;
+}
 
 
 

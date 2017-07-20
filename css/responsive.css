@@ -362,6 +362,10 @@
 @media (max-width: 736px) {
   
 }
+
+@media only screen and (max-width: 600px){
+.nav-tabs > li{ margin-bottom:24px;}
+}
 @media (max-width: 640px) {
   .overlay-menu ul li a {
     font-size: 26px;
@@ -374,11 +378,9 @@
   }
 
 }
-@media (max-width: 568px) {
-  
-}
 
-@media (max-width: 480px) {
+
+/*@media (max-width: 480px) {
   
   .entry-comments .comment-content {
     padding-left: 80px;
@@ -396,7 +398,7 @@
   .page-404 h1 {
     font-size: 80px;
   }
-}
+}*/
 @media (max-width: 414px) {
   .logo-wrap{
     width: 68%;

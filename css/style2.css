@@ -166,7 +166,9 @@
 .nyc-subtitle{
 	color: white;
 	font-size: 17px;
-	padding: 15px 0;
+	/*padding: 15px 0;*/
+	text-transform: uppercase;
+	letter-spacing: .8px;
 }
 .loved-top-banner{
 	background-image: url(loved-top-banner.jpg);
@@ -221,6 +223,7 @@
   float: none;
   display: inline-block;
 }
+
 
 .nav-tabs > li > a {
   margin-right: 1px;
@@ -281,6 +284,12 @@
 }
 .talk-wrap{
 	padding: 0 5% 0% 5%;
+}
+.sign-banner{
+	background-image: url(sign-on-lawn.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 12% 10%;
 }
 
 

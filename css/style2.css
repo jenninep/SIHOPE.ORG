@@ -8,7 +8,7 @@
 .nyc-btn {
     font-size: 15px;
     padding: 10px 23px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .nyc-logo{
@@ -169,6 +169,7 @@
 	/*padding: 15px 0;*/
 	text-transform: uppercase;
 	letter-spacing: .8px;
+	font-weight: bold;
 }
 .loved-top-banner{
 	background-image: url(loved-top-banner.jpg);

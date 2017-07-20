@@ -462,7 +462,15 @@
 .coming-soon-title {
     font-size: 39px;
 
+  }
+  .talk-col{
+  padding-left:15px;
+  }
+  .talk-wrap{
+    padding: 0;
+  }
 }
+
 @media (max-width: 375px) {
   .help2-img{
     width: 425px;

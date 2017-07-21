@@ -246,9 +246,10 @@
 }
 
 .nav-tabs > li > a:hover {
-  border-color: #ffab0a;
-  color: #fff;
-  background: #ffab0a;
+     border-color: #dddddd;
+    color: #000;
+    background: #f4ec3d;
+    
 }
 
 .nav-tabs > li.active > a,
@@ -295,7 +296,7 @@
 	background-image: url(sign-on-lawn.jpg);
     background-size: cover;
     text-align: center;
-    padding: 12% 10%;
+    padding: 10% 10%;
 }
 .form-wrapper{
 	padding: 2% 10%;

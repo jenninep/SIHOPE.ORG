@@ -1,3 +1,36 @@
+<?php
+if(count($_POST)>0) {
+	$first_name = $_POST['first-name'];
+	$last_name = $_POST['last-name'];
+	$email = $_POST['email'];
+	$phone = $_POST['phone'];
+	$address = $_POST['address'];
+	$zip = $_POST['zip'];
+	$amount = $_POST['amount'];
+	$size_small = $_POST['size_small'];
+	$size_medium = $_POST['size_medium'];
+	$size_large = $_POST['size_large'];
+
+	$message = "First name: ".$first_name ."\r\n".
+	"Last name: ".$last_name ."\r\n".
+	"Email: ".$email ."\r\n".
+	"Phone: ".$phone ."\r\n".
+	"Address: ".$address ."\r\n".
+	"Amount ".$amount ."\r\n".
+	"Size Small: ".$size_small ."\r\n".
+	"Size Medium: ".$size_medium ."\r\n".
+	"Size Medium: ".$size_large ."\r\n".
+	"Date:" . date("Y-m-d H:i:s");
+
+	$header =  "From: info@sihope.org" . "\r\n".
+		   "Reply-To: info@sihope.org" . "\r\n".
+		   "X-Mailer: PHP/" .phpversion();
+
+	$from = "info@sihope.org";
+	$to = "jennine@optonline.net"; //sihopecampaign@gmail.com
+	mail($to, "Yard Sign Request", $message, $header);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -135,123 +168,11 @@
           <div class="tab-pane active" id="breakfast">
             <div class="row nomargin nopadding">
               <div class="col-md-6 talk-col col-md-offset-3">
-                <h2 class="text-center bottom-line">yard sign request</h2>
+                <h2 class="text-center bottom-line">Thank you for your request.</h2>
+                <p class="text-center">Please allow up to 2 weeks for delivery.</p>
               </div>
             </div> 
             <div class="form-wrapper">
-              <form action="yard_request.php" method="POST" class="j-forms" novalidate>
-                <div class="content">
-                  <div class="row">
-                    <div class="col-md-6 unit">
-                      <div class="input">
-                        <label class="icon-right" for="first-name">
-                          <i class="fa fa-user"></i>
-                        </label>
-                        <input type="text" id="first-name" name="first-name" placeholder="First Name">
-                      </div>
-                    </div>
-                    <div class="col-md-6 unit">
-                      <div class="input">
-                        <label class="icon-right" for="first-name">
-                          <i class="fa fa-user"></i>
-                        </label>
-                        <input type="text" id="last-name" name="last-name" placeholder="Last Name">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6 unit">
-                      <div class="input">
-                        <label class="icon-right" for="email">
-                          <i class="fa fa-envelope-o"></i>
-                        </label>
-                        <input type="email" placeholder="Email@gmail.com" id="email" name="email">
-                      </div>
-                    </div>
-                    <div class="col-md-6 unit">
-                      <div class="input">
-                        <label class="icon-right" for="phone">
-                          <i class="fa fa-phone"></i>
-                        </label>
-                        <input type="text" placeholder="Phone/mobile" id="phone" name="phone">
-                      </div>
-                    </div>
-                  </div> <!-- row -->
-                   <div class="row">
-                  <div class="col-md-12 unit">
-                   <div class="input">
-                    <label class="icon-right" for="address">
-                      <i class="fa fa-building-o"></i>
-                    </label>
-                    <input type="text" id="address" placeholder="Address" name="address"  required>
-                    </div>     
-                  </div>
-                  
-                </div>
-                  <div class="row">
-                    <div class="col-md-8 unit">
-                     <div class="input">
-                      <label class="icon-right" for="city">
-                        <i class="fa fa-building-o"></i>
-                      </label>
-                      <input type="text" id="city" name="city" placeholder="Staten Island, NY">
-                    </div>
-                  </div>
-                  <div class="col-md-4 unit">
-                   <div class="input">
-                    <label class="icon-right" for="post">
-                      <i class="fa fa-bookmark-o"></i>
-                   </label>
-                    <input type="text" id="post" name="zip" placeholder="Zip Code">
-                   </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-md-4 unit">
-                    <label class="select">
-                      <select name="size_small">
-                        <option value="none" selected>Small (18’ x 24’)</option>
-                        <option value="1">1 Small (18’ x 24’)</option>
-                        <option value="2">2 Small (18’ x 24’)</option>
-                        <option value="3">3 Small (18’ x 24’)</option>
-                        <option value="4">4 Small (18’ x 24’)</option>
-                        <option value="5">5 Small (18’ x 24’)</option>
-                      </select>
-                      <i></i>
-                    </label>
-                  </div>
-                  <div class="col-md-4 unit">
-                    <label class="select">
-                      <select name="size_medium">
-                        <option value="none" selected>Medium (4’ x 5’)</option>
-                        <option value="1">1 Medium (4’ x 5’)</option>
-                        <option value="2">2 Medium (4’ x 5’)</option>
-                        <option value="3">3 Medium (4’ x 5’)</option>
-                        <option value="4">4 Medium (4’ x 5’)</option>
-                        <option value="5">5 Medium (4’ x 5’)</option>
-                      </select>
-                      <i></i>
-                    </label>
-                  </div>
-                  <div class="col-md-4 unit">
-                    <label class="select">
-                      <select name="size_large">
-                        <option value="none" selected>Large (8’ x 10’)</option>
-                        <option value="1">1 Large (8’ x 10’)</option>
-                        <option value="2">2 Large (8’ x 10’)</option>
-                        <option value="3">3 Large (8’ x 10’)</option>
-                        <option value="4">4 Large (8’ x 10’)</option>
-                        <option value="5">5 Large (8’ x 10’)</option>
-                      </select>
-                      <i></i>
-                    </label>
-                  </div>
-                </div>
-                <div>
-                  <button type="submit" class="btn form-btn">Make Request</button>
-                </div>
-              </div> <!-- content -->
-            </form>
           </div>
         </div>
             

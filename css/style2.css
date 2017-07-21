@@ -9,6 +9,8 @@
     font-size: 15px;
     padding: 10px 23px;
     margin-top: 20px;
+    font-family: Helvetica;
+    font-weight:bold;
 }
 
 .nyc-logo{
@@ -230,7 +232,7 @@
   margin-right: 1px;
   line-height: 1.42857143;
   border: 2px solid #ddd;
-  border-radius: 30px;
+  /*border-radius: 30px;*/
   padding: 10px 30px;
   text-transform: uppercase;
   color: #333;
@@ -252,10 +254,13 @@
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #fff;
+  color: #000;
+  font-weight: bold;
   cursor: default;
-  background-color: #ffab0a;
-  border: 2px solid #ffab0a;
+	cursor: default;
+	background-color: #f4ec3d;
+	border: 2px solid #ddd;
+	}
 }
 
 .tab-pane {
@@ -291,6 +296,17 @@
     background-size: cover;
     text-align: center;
     padding: 12% 10%;
+}
+.form-wrapper{
+	padding: 2% 10%;
+}
+.form-btn{
+	font-size: 15px;
+    padding: 10px 23px;
+    margin-top: 10px;
+    font-family: Helvetica;
+    font-weight:bold;
+    float: right;
 }
 
 

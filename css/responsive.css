@@ -471,6 +471,15 @@
   .talk-wrap{
     padding: 0;
   }
+  .form-wrapper {
+    padding: 2% 0%;
+  }
+  .j-forms .content {
+    padding: 24px 6px 0;
+  }
+  .form-btn {
+    float:none;
+  }
 }
 
 @media (max-width: 375px) {

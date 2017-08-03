@@ -1,5 +1,6 @@
 
 
+
 (function($){
     "use strict";
 
@@ -13,6 +14,7 @@
         initMasonry();
 
     });
+    
 
     $(document).ready(function(){
 
@@ -20,10 +22,65 @@
         initOwlCarousel();
         initTextrotator();
         initOnepagenav();
+        initYardSignFormListener();
+        initOnScroll();
         // initPiechart();
         
     });
 
+    function initOnScroll(){
+        if ($(".scroll-down").length){
+            $(window).scroll(function(){
+                if ($(window).scrollTop()>0){
+                    $(".scroll-down").fadeOut();
+                } else {
+                    $(".scroll-down").fadeIn();
+                }
+            });
+
+        }
+    }
+
+    //Yard Sign Form Listener
+    function initYardSignFormListener(){
+        if($(".yardSignForm").length){
+            $(".yardSignFormSubmit").click(function(e){
+                var small = $(".size_small").val();
+                var medium = $(".size_medium").val();
+                var large = $(".size_large").val();
+                if (small == "" && medium == "" && large == ""){
+                    $(".sizeError").show();
+                    e.preventDefault();
+                } 
+            });
+            $(".size_small").change(function(){
+                checkAndHide();
+            })
+            $(".size_medium").change(function(){
+                checkAndHide();
+            })
+            $(".size_large").change(function(){
+                checkAndHide();
+            })
+            function checkAndHide(){
+                var small = $(".size_small").val();
+                var medium = $(".size_medium").val();
+                var large = $(".size_large").val();
+                if (small !="" || medium != "" || large != "" ){
+                    $(".sizeError").fadeOut();
+                }
+            }
+
+        }
+    }
+
+
+
+$('.map-container')
+    .click(function(){
+            $(this).find('iframe').addClass('clicked')})
+    .mouseleave(function(){
+            $(this).find('iframe').removeClass('clicked')});
 
 
     /* Full Height Container / Dropdowns
@@ -492,6 +549,9 @@ function container_full_height_init(){
         $(".container-full-height").height($(window).height());
     })(jQuery);
 }
+
+
+
 
 
 

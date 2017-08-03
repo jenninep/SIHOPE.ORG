@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SIHOPE</title>
+  <title>My loved one is struggling with an addiction</title>
 
   <meta charset="UTF-8">
-  <meta name="description" content="SIHOPE.org is a one-stop-shop for those battling addiction, those with a loved one who is struggling, or those who simply want to get involved in helping end this terrible crisis.
-">
-  <meta name="keywords" content="drugs, overdose, recovery, treatment centers, Staten Island">
+  <meta name="description" content="SIHOPE.org is a one-stop-shop for those battling drug addiction, those with a loved one who is struggling, or those who simply want to get involved in helping end the Staten Island drug epidemic.">
+  <meta name="keywords" content="sihope, sihope.org, drug, help, overdose, epidemic, overdose, rehab, recovery, treatment centers, Staten Island">
 
   <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  
 
   <!-- Google Fonts -->
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet'>
@@ -19,7 +19,6 @@
   <!-- Css -->
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <link rel="stylesheet" href="css/font-icons.css" />
-  <link rel="stylesheet" href="revolution/css/settings.css" />
   <link rel="stylesheet" href="css/rev-slider.css" />
   <link rel="stylesheet" href="css/sliders.css">
   <link rel="stylesheet" href="css/style.css" />
@@ -31,9 +30,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
     <link rel="stylesheet" href="css/imagehover.min.css">
  
-
+ <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+    }
+  </script>
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   <!-- Favicons -->
   <link rel="shortcut icon" href="img/favicon.png">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-103566838-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </head>
 
 <body data-spy="scroll" data-offset="60" data-target=".navbar-fixed-top">
@@ -53,7 +67,9 @@
       <div class="navigation-overlay">
         <div class="container-fluid relative">
           <div class="row">
-
+            <div id="google_translate_element"></div>
+          </div>
+          <div class="row">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -77,22 +93,22 @@
                 <ul class="nav navbar-nav local-scroll text-center">
 
                   <li>
-                    <a href="index.html">home</a>
-                  </li>
-                  <li>
                     <a href="ineed-help.html">i need help</a>
                   </li>
                   <li class="active">
                     <a href="loved-one-help.html">my loved one needs help</a>
                   </li>
                   <li>
-                    <a href="want-to-help.html">i want to help</a>
+                    <a href="iwant-to-help.html">i want to help</a>
                   </li>
+                  <li>
+                    <a href="want-yard-sign.html">i want a yard sign</a>
+                  </li>  
                    <li>
-                    <a href="want-to-help.html">i want to learn more</a>
+                    <a href="learn-more.html">learn more</a>
                   </li>  
                   <li>
-                    <a href="want-to-help.html">Contact Us</a>
+                    <a href="contact-us.html">Contact</a>
                   </li>                         
                 </ul>
               </div>
@@ -129,12 +145,13 @@
         <p class="text-center" style="font-style:italic;">Pay attention to significant changes in their physical appearance, attitude and behavior.</p>
       </div>  
     </div>
-    <div class="row nomargin" style="padding:4% 9% 5% 7%;">
-      <div class="col-md-4">
+    <div class="row nomargin" style="padding: 4% 7% 5% 5%;">
+      <div class="col-md-4 col-sm-4">
         <div class="text-center">
           <img class="sign-icons" src="img/physical-icon.png">
         </div>
-         <h4 class="text-center pt-30">Physical signs</h4>
+         <p class="text-center pt-30 talk-header">Physical signs</p>
+          <hr class="sign-hr">
         <div class="signs-text-div">
           <p><i class="fa fa-circle circle" aria-hidden="true"></i>Physical appearance (may show signs of weight loss, appear sickly)</p>
           <p><i class="fa fa-circle circle" aria-hidden="true"></i>Intense flu-like symptoms like nausea, vomiting, sweating, shaky hands, feet or head and large pupils</p>
@@ -146,11 +163,12 @@
           <p><i class="fa fa-circle circle" aria-hidden="true"></i>Wearing long-sleeves or hiding arms</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-4">
         <div class="text-center">
           <img class="sign-icons" src="img/behavioral.png">
         </div>
-         <h4 class="text-center pt-30">Behavioral signs</h4>
+         <p class="text-center pt-30 talk-header">Behavioral signs</p>
+         <hr class="sign-hr">
        
         <div class="signs-text-div">
           <p><i class="fa fa-circle circle" aria-hidden="true"></i>Change in attitude and/or personality</p>
@@ -160,11 +178,12 @@
           <p><i class="fa fa-circle circle" aria-hidden="true"></i>Tendency to avoid contact with family & friends</p>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-4">
         <div class="text-center">
           <img class="sign-icons" src="img/warning-icon.png">
         </div>
-         <h4 class="text-center pt-30">Advanced Warning Signs</h4>
+         <p class="text-center pt-30 talk-header">Advanced Warning Signs</p>
+          <hr class="sign-hr">
        
         <div class="signs-text-div">
           <p><i class="fa fa-circle circle" aria-hidden="true"></i>Missing Medications</p>
@@ -179,13 +198,13 @@
 
 <section class="section-wrap bg-light"><!-- how to talk to loved one --> 
   <div class="row nomargin nopadding">
-    <div class="col-md-6 talk-col col-md-offset-3">
+    <div class="col-md-6 col-md-offset-3">
       <h2 class="text-center bottom-line">I Know My Loved One Has a Substance Abuse Problem, How Can I Talk to Them About It?</h2>
       <p class="text-center pb-30" style="font-size:18px;">Talking to your loved one about their substance abuse issues is a challenging and emotional task, but it can possibly save their life. Here are some tips on beginning the conversation.</p>
     </div>
   </div> 
 
-  <div class="row nomargin talk-wrap">
+  <div class="row nomargin talk-wrap flex-row">
     <div class="col-md-6 talk-col mt-20">
       <div class="talk-div bg-white">
         <img class="talk-imgs" src="img/talk-1.jpg" alt="women-talking">
@@ -205,7 +224,7 @@
       </div>
     </div>
   </div>
-  <div class="row nomargin talk-wrap">
+  <div class="row nomargin talk-wrap flex-row">
     <div class="col-md-6 talk-col mt-20">
       <div class="talk-div bg-white">
         <img class="talk-imgs" src="img/talk-3.jpg" alt="arms-hold">
@@ -232,83 +251,84 @@
 
 <!-- Resource and Recovery Support -->
 <section>
-  <div class="nyc-wrap">
-  <div class="row nomargin section-wrap">
+  <div class="nyc-wrap bg-light">
+  <div class="row section-wrap">
     <div class="col-md-6 col-md-offset-3">
         <h2 class="text-center bottom-line">Take the First Steps Toward Recovery</h2>
         <p class="text-center" style="font-size:18px;">The centers below can help those struggling with addiction find the right resource. They offer a variety of options, and can help locate the appropriate help.</p>
       </div>
   </div>
-     <div class="row nomargin bg-white">
+     <div class="row bg-white">
       <div class="col-md-4 text-center y-div">
-        <img class="ymca-logo" src="img/YMCA-logo.png">
-        <div>
-          <p class="pt-20 address">South Shore Center<br>
-          3911 Richmond Ave, Staten Island, NY 10312<br>
-          (718) 948-3232 &nbsp;&nbsp;&nbsp;
-          Hours: 9:00am - 9:00pm</p>
+         <a href="http://www.ymcanyc.org/counseling/pages/rebuilding-lives-restoring-hope" target="_blank" role="button"><img class="ymca-logo" src="img/YMCA-logo.png"></a>
+        <div class="col-md-6">
+          <p class="pt-10 address">South Shore Center<br>
+          3911 Richmond Ave<br> Staten Island, NY 10312<br>
+          (718) 948-3232<br> 
+          Hours: (M - F ) 9am - 9pm<br>
+          (Sat) 9am-5pm</p><br>
         </div>
-        <div>
+        <div class="col-md-6">
           <p class="pt-10 address">North Shore Center<br>
-          285 Vanderbilt Ave, Staten Island, NY 10304<br>
-          (718) 981-4382 &nbsp;&nbsp;&nbsp;
-          Hours: 9:00am - 9:00pm</p>
+          285 Vanderbilt Ave<br> Staten Island, NY 10304<br>
+          (718) 981-4382<br>
+          Hours: (M - F) 9am - 9pm</p>
         </div>
       </div>
       <div class="col-md-1 vertical-row-y"></div>
       <div class="col-md-7 recovery-text-y">
         <p>Since 1980, YMCA Counseling Service has provided the Staten Island community with comprehensive prevention and treatment services that promote the development of spirit, mind and body. Their state-licensed outpatient program includes treatment services for adults and older teens, prevention services for at-risk youth, and counseling services for children whose lives have been affected by a family member’s addiction.
         </p>
-         <a class="btn nyc-btn " href="http://www.ymcanyc.org/counseling/pages/rebuilding-lives-restoring-hope" target="_blank" role="button">Learn more</a>
+         <a class="btn nyc-btn" href="http://www.ymcanyc.org/counseling/pages/rebuilding-lives-restoring-hope" target="_blank" role="button">Learn more</a>
       </div>
     </div>
     <div class="row bg-white mt-30">
       <div class="col-md-4 text-center chasi-div">
-        <img class="chasi-logo" src="img/CHASI-logo.png">
+        <a href="https://chasiny.org/"  target="_blank" role="button"><img class="chasi-logo" src="img/CHASI-logo.png"></a>
         <p class="pt-20 address">26 Bay Street, 3rd Floor<br>
-        Staten Island, NY 10301<br>(718) 808-1450&nbsp;&nbsp;&nbsp;Hours 24/7 Days a Week</p>
+        Staten Island, NY 10301<br>(718) 808-1450<br>Hours; Open 24 hours a day / 7 Days a Week</p>
       </div>
       <div class="col-md-1 vertical-row"></div>
       <div class="col-md-7 recovery-text">
         <p class="">The Next Step Resource & Recovery Center offers a broad range of services to support Staten Islanders affected by substance use and their families in a welcoming and warm setting.
-        As a pro-recovery community center space with workshops about wellness and life skills, we host support & self-help groups, and substance-free social events.<br><br>
-        Recovery community members participate in sessions such as yoga, meditation, creative writing, men’s and women’s groups, relapse prevention, naloxone training, and on-site 12 step groups.
+        As a pro-recovery community center space with workshops about wellness and life skills, The Next Step Resource & Recovery Center hosts support & self-help groups, and substance-free social events.</p>
+        <p class="pt-10">Recovery community members participate in sessions such as yoga, meditation, creative writing, men’s and women’s groups, relapse prevention, naloxone training, and on-site 12 step groups.
         The Center is LGBT-friendly, and activities are led by peers, staff, and community volunteers. They are open 24/7. People struggling with addiction or their family members may walk in without an appointment to get information, support, and get linked with treatment and other community resources.</p>
          <a class="btn nyc-btn " href="https://chasiny.org/"  target="_blank" role="button">Learn more</a>
       </div>
     </div>
    <div class="row bg-white mt-30">
       <div class="col-md-4 text-center y-div">
-        <img class="chris-logo" src="img/Chris-logo.png" alt="chris-logo">
+        <img class="chris-logo" src="img/Chris-logo.png">
         <div>
           <p class="pt-20 address">4521 Arthur Kill Road, 3rd Floor<br> Staten Island, NY 10309<br>
                                       (718) 605-1989</p>
-         <p class="address">Monday-Thursday 9am-9pm, Friday 9am-5pm
-        Sundays closed, but may contact for Saturday hours.</p>                           
+         <p class="address">Monday-Thursday 9am-9pm<br>Friday 9am-5pm<br>
+       Contact for Saturday hours</p>                           
         </div>
       </div>
       <div class="col-md-1 vertical-row-y"></div>
       <div class="col-md-7 recovery-text-chris">
-        <p>Christopher’s Reason is a place where all are welcome to explore their substance use issues. It is a safe place to spend the day with other recovering individuals. The staff at Christopher’s Reason assists and helps anyone who walks through the door, from substance users, parents, to families. Christopher’s Reason will take the time out to help any individual through this lifetime recovery process.<br><br>
-        Christopher’s Reason is named after Christopher Perrotto, who passed away early in this epidemic, on April 10th, 2011. Christopher’s mother, Ann Marie Perrotto, has been passionately sharing her loss for the purpose of helping others. She is now teamed up with Donna Mae DePola, Founder & CEO/President of the The Resource Training & Counseling Center.</p>
+        <p>Christopher’s Reason is a place where all are welcome to explore their substance use issues. It is a safe place to spend the day with other recovering individuals. The staff at Christopher’s Reason assists and helps anyone who walks through the door, from substance users, parents, to families. Christopher’s Reason will take the time out to help any individual through this lifetime recovery process.</p>
+        <p class="pt-10">Christopher’s Reason is named after Christopher Perrotto, who passed away early in this epidemic, on April 10th, 2011. Christopher’s mother, Ann Marie Perrotto, has been passionately sharing her loss for the purpose of helping others. She is now teamed up with Donna Mae DePola, Founder & CEO/President of the The Resource Training & Counseling Center.</p>
          <!-- <a class="btn nyc-btn " href="https://nycwell.cityofnewyork.us/en/" role="button">Learn more</a> -->
-        <div>
-          <div class="col-md-3">
+        <div class="chris-checks pt-10">
+          <div class="col-md-4" style="padding-left:0;">
             <p><i id="check1" class="fa fa-check-circle-o fa-lg" aria-hidden="true"></i>Naloxone Training & Kit </p>
-          </div>
-          <div class="col-md-3">
             <p><i id="check1" class="fa fa-check-circle-o fa-lg" aria-hidden="true"></i>Peer Services </p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <p><i id="check1" class="fa fa-check-circle-o fa-lg" aria-hidden="true"></i>Family Support</p>
+            <p><i id="check1" class="fa fa-check-circle-o fa-lg" aria-hidden="true"></i>Licensed Counselors</p>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-4">
             <p><i id="check1" class="fa fa-check-circle-o fa-lg" aria-hidden="true"></i>Resource & Recovery Center</p>
           </div>
         </div>
+
+        </div>
       </div>
     </div>  
-  </div>
 </section> <!-- end Recovery and Support -->
 
 <section>
@@ -320,18 +340,18 @@
       </div>
     </div>
     <div class="row nomargin" style="padding: 0 11%;">
-      <div class="col-md-12 text-center map-responsive ">
+      <div class="col-md-12 text-center map-responsive map-container">
         <iframe src="https://www.google.com/maps/d/embed?mid=1owa7m6wh6MUDpAOwXaPI57b0a6c" width="640" height="480"></iframe>
       </div><br>
       <p class="lt-grey-text text-center" style="font-size:15px;">If you or someone you know operates an addiction or recovery service on Staten Island and is not listed here, please email <a href="mailto:sihopecampaign@gmail.com">sihopecampaign@gmail.com</a>.</p>
     </div>
     <div>
-      <div class="row nomargin pt-30">
-        <div class="col-md-2 col-md-offset-3 text-center">
+      <div class="row nomargin" style="padding: 4% 12% 4% 15%;">
+        <div class="col-md-2 col-sm-2">
           <img class="text-center" src="img/Alcoholism-logo.png">
         </div>
-        <div class="col-md-5">
-           <p class="pt-10 lt-grey-text">
+        <div class="col-md-10 col-sm-10">
+           <p class=" lt-grey-text">
             To find recovery & treatment options in other parts of New York State, please visit the New York State Office of Alcoholism and Substance Abuse Services Treatment Availability Dashboard Here: <a>https://findaddictiontreatment.ny.gov/</a>
           </p>
         </div>
@@ -339,84 +359,132 @@
     </div>
   </div>
 </section>
-
-<!-- self help groups -->
-<section class="section-wrap2 bg-light">
+<!-- 
+Staten Island Self Help Groups -->
+<section class="bg-light pb-100">
+<div class="row nomargin">
+  <div class="col-md-12 nomargin nopadding">
+    <img class="support-group-pic" src="img/support-group-pic.png" alt="support-group">
+  </div>
+  
+</div>
   <div class="row nomargin">
     <div class="col-md-6 col-md-offset-3">
-      <h2 class="text-center bottom-line">Staten Island Self-Help Groups</h2>
-      <p class="text-center font19">Staten Island is home to many self-help groups for those suffering from addiction and for those whose lives have been impacted by their loved one’s addiction. These groups are completely anonymous and cost-free.</p>
+      <h2 class="text-center bottom-line pt-30">Staten Island Self-Help Groups</h2>
+      <p class="text-center font-17">Staten Island is home to many self-help groups for those suffering from addiction and for those whose lives have been impacted by their loved one’s addiction. These groups are completely anonymous and cost-free.</p>
     </div>
   </div>   
-  <div class="row nomargin group-wrap text-center pt-60">
-    <div class="col-md-12 group-pad bg-white"> 
-      <h5 class="text-center grey-text pb-20">Support Groups For People Struggling With Substance Misuse</h5>
-      <div class="col-md-4">
-        <img class="recovery-logo" src="img/aa-logo.png">
-        <p>Staten Island Alcoholics Anonymous<br>
-        (212) 657-1680 (24/7 Hotline)<br>
-        <a href="http://statenislandaa.org/">Website</a></p>
-      </div>
-      <div class="col-md-4">
-        <img class="recovery-logo" src="img/na-logo.png">
-        <p>Narcotics Anonymous<br>
-        (212) 657-1680 (24/7 Hotline)<br>
-        <a href="https://newyorkna.org/meetings/tabbed-searches/staten-island-tabbed-search/">Website1 &nbsp;</a></p>
+  <div class="row nomargin group-wrap text-center">
+    <div class="group-pad"> 
+      <p class="text-center recovery-header pb-20">Support Groups For People Struggling With Addiction</p>
+      <a href="http://statenislandaa.org/" target="_blank">
+        <div class="col-md-4 col-sm-4 hvr-float-shadow group-col-pad">
+          <div class="recovery-info bg-white border-bottom">
+            <img class="recovery-logo" src="img/aa-logo.png">
+            <hr class="recovery-hr">
+            <p><strong>Staten Island Alcoholics Anonymous</strong></p>
+            <p>(212) 657-1680 (24/7 Hotline)</p>
+          </div>
+        </div>
+      </a>
+      <div class="col-md-4 col-sm-4 hvr-float-shadow group-col-pad">
+        <a href="https://newyorkna.org/meetings/tabbed-searches/staten-island-tabbed-search/" target="_blank">
+          <div class="recovery-info bg-white border-bottom">
+            <img class="recovery-logo" src="img/na-logo.png">
+            <hr class="recovery-hr">
+            <p><strong>Narcotics Anonymous</strong></p>
+            <p>(212) 657-1680 (24/7 Hotline)</p>
+          </div>
+        </a>
+        
       </div> 
-      <div class="col-md-4">
-        <img class="recovery-logo" src="img/pills-logo.png">
-        <p>Pills Anonymous<br>
-        <a href="http://www.pillsanonymous.org/meetings/find-a-meeting/">Website</a></p>
-        <p class="footnote">*press ctrl f and type in Staten Island to see the need information.</p>
+      <div class="col-md-4 col-sm-4 hvr-float-shadow group-col-pad">
+        <a href="http://www.pillsanonymous.org/meetings/find-a-meeting/" target="_blank">
+          <div class="recovery-info bg-white border-bottom">
+            <img class="recovery-logo" src="img/pills-logo.png">
+            <hr class="recovery-hr">
+            <p><strong>Pills Anonymous</strong></p>
+            <p class="footnote">*press ctrl f and type in Staten Island to see the need information.</p>
+          </div>
+        </a>
       </div>  
     </div>
   </div> 
-   <div class="row nomargin group-wrap text-center pt-30">
-    <div class="col-md-12 group-pad bg-white"> 
-      <h5 class="text-center grey-text pb-20">Support Groups For Loved Ones Of People Who Struggle With Substance Misuse</h5>
-      <div class="col-md-4">
-        <img class="recovery-logo" src="img/al-anon-logo.png">
-        <p>New York City Al-Anon<br>
-        (212) 941-0094<br>
-        <a href="http://www.nycalanon.org/staten-island.html">Website</a></p>
+
+<div class="row nomargin group-wrap text-center">
+  <div class="group-pad"> 
+    <p class="text-center recovery-header pb-20">Support Groups For Loved Ones Of People Struggling With Addiction</p>
+    <a href="http://www.nycalanon.org/staten-island.html" target="_blank">
+      <div class="col-md-4 col-sm-4 hvr-float-shadow group-col-pad">
+        <div class="recovery-info bg-white border-bottom">
+          <img class="recovery-logo" src="img/al-anon-logo.png" alt="alanon-logo">
+          <hr class="recovery-hr">
+          <p><strong>New York City Al-Anon</strong></p>
+          <p>(212) 941-0094</p>
+        </div>
       </div>
-      <div class="col-md-4">
-      <img class="recovery-logo" src="img/nar-anon-logo.png">
-        <p>Nar-Anon<br>
-        (718) 967-2608 (24/7 Hotline)<br>
-        <a href="https://newyorkna.org/meetings/tabbed-searches/staten-island-tabbed-search/">Website1 &nbsp;</a></p>
-      </div> 
-      <div class="col-md-4">
-        <img class="recovery-logo" src="img/smart-recovery-logo.png">
-        <p>SMART RecoveryⓇ for Family&Friends NYC<br>
-        (646) 472-9706 / <a href="mailto:SMARTstatenisland@gmail.com"></a><br>
-        <a href="http://www.smartrecoverynyc.org/meetings/">Website</a></p>
-      </div>  
-    </div>
-  </div> 
-  <div class="row nomargin group-wrap text-center pt-30">
-    <div class="col-md-12 group-pad bg-white"> 
-      <h5 class="text-center grey-text pb-20">Faith-Based Recovery Programs</h5>
-      <div class="col-md-4">
-        <img class="recovery-logo" src="img/faith-based-logo.png">
-        <p>Weekly Schedule of Faith Based Support Groups<br>
-        <a href="http://newlife4si.org/hope/">Website</a></p>
+    </a>
+    <a href="https://newyorkna.org/meetings/tabbed-searches/staten-island-tabbed-search/" target="_blank">
+      <div class="col-md-4 col-sm-4 hvr-float-shadow group-col-pad">
+        <div class="recovery-info bg-white border-bottom">
+          <img class="recovery-logo" src="img/nar-anon-logo.png" alt="nar-anon-logo">
+          <hr class="recovery-hr">
+          <p><strong>Nar-Anon</strong></p>
+          <p>(718) 967-2608 (24/7 Hotline)</p>
+        </div>
       </div>
-      <div class="col-md-4">
-        <img class="recovery-logo" src="img/celebrate-logo.png">
-        <p>Celebrate Recovery<br>
-        <a href="http://locator.crgroups.info/?task=redirectviewinfo&id=5968">Website</a>
+    </a> 
+    <a href="http://www.smartrecoverynyc.org/meetings/" target="_blank">
+      <div class="col-md-4 col-sm-4 hvr-float-shadow group-col-pad">
+        <div class="recovery-info bg-white border-bottom">
+          <img class="recovery-logo" src="img/smart-recovery-logo.png">
+          <hr class="recovery-hr">
+          <p><strong>SMART RecoveryⓇ for Family&Friends NYC</strong></p>
+          <p>(646) 472-9706</p>
+        </div>
       </div> 
-      <div class="col-md-4">
+     </a> 
+  </div>
+</div> 
+<div class="row nomargin group-wrap text-center">
+  <div class="group-pad"> 
+    <p class="text-center recovery-header pb-20">Faith-Based Recovery Programs</p>
+    <a href="http://newlife4si.org/hope/" target="_blank">
+      <div class="col-md-4 col-sm-4 hvr-float-shadow group-col-pad">
+        <div class="recovery-info bg-white border-bottom">
+          <img class="recovery-logo" src="img/faith-based-logo.png" alt="faith-based-logo">
+          <hr class="recovery-hr">
+          <p><strong>Weekly Schedule of Faith Based Support Groups</strong></p>
+        </div>
+      </div>
+    </a>
+    <a href="http://locator.crgroups.info/?task=redirectviewinfo&id=5968" target="_blank">
+      <div class="col-md-4 col-sm-4 hvr-float-shadow group-col-pad">
+        <div class="recovery-info bg-white border-bottom">
+          <img class="recovery-logo" src="img/celebrate-logo.png" alt="celebrate-logo">
+          <hr class="recovery-hr">
+          <p><strong>Celebrate Recovery</strong></p>
+        </div>
+      </div>
+    </a> 
+
+    <div class="col-md-4 col-sm-4 hvr-float-shadow group-col-pad">
+      <div class="recovery-info bg-white border-bottom">
         <img class="recovery-logo" src="img/heros-logo.png">
-        <p>Heroes of Hope<br>
-        <a href="http://heroesofhope.nyc/">Heroes of Hope Website</a><br>
-        <a href="http://celebratehope.nyc/about.htm">Celebrate Hope Website</a></p>
-      </div>  
-    </div>
-  </div> 
+        <hr class="recovery-hr">
+        <p><strong>Heroes of Hope</strong></p>
+        <div class="recov-hope-links">
+          <a class="right-border" href="http://heroesofhope.nyc/" target="_blank">Heroes of Hope</a>
+          <a href="http://celebratehope.nyc/about.htm" target="_blank">Celebrate Hope</a>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
 </section>
 
+
+<!-- naloxone section -->
 <section>
   <div class="row nomargin section-wrap">
     <div class="col-md-6 col-md-offset-3">
@@ -424,26 +492,24 @@
       <p class="text-center" style="font-size:18px;">The opioid overdose reversal drug Naloxone (Narcan) is widely available across Staten Island. Find out more below.</p>
     </div>
   </div>
-  <div class="row relative nomargin nopadding">
-    <div class="col-md-12 text-center nopadding">
+  <div class="row nomargin relative">
+    <div class="col-md-12 nomargin nopadding text-center ">
       <img class="naloxone-bg" src="img/naloxone-bg.jpg">
       <img class="naloxone-png" src="img/Naloxone.png">
     </div>
   </div>
-  <div class="row nomargin nopadding">
+  <div class="row nomargin flex">
     <div class="col-md-6 naloxone-text">
-      <p><strong>Naloxone</strong> (often called by the brand name Narcan) is a safe medication that reverses opioid overdoses and saves lives. When someone is experiencing an overdose, they are at a high risk of death. By administering Naloxone, you are helping keep that person alive until emergency medical attention arrives.<br><br> 
-
-      <strong>Always call 911 if you think someone is overdosing, even if you give naloxone.</strong></p>
+      <p><strong>Naloxone</strong> (often called by the brand name Narcan) is a safe medication that reverses opioid overdoses and saves lives. When someone is experiencing an overdose, they are at a high risk of death. By administering naloxone, you are helping keep that person alive until emergency medical attention arrives.<br><br>
+      <strong>Always call 911 if you think someone is overdosing, even if you give naloxone.</p>
+      <p>The NYS 911 Good Samaritan Law protects you from criminal liability if you call 911 in a life or death situation.</strong></p>
     </div>
     <div class="col-md-6 naloxone-text bg-dark-grey">
       <h6 class="color-lite pb-20">Where to get naloxone:</h6>
-      <p class="color-lite"><i id="check2" class="fa fa-check-circle-o fa-lg pt-10" aria-hidden="true"></i>Many community-based organizations offer Naloxone & Trainings for free. <a href="mailto:rosanne@sipcw.org">Please contact</a> the Staten Island Partnership for Community Wellness for more information.</p>
-      <p class="color-lite" style="padding-bottom: 7%;"><i id="check2" class="fa fa-check-circle-o fa-lg" aria-hidden="true"></i>Most pharmacies on Staten Island offer Naloxone without a prescription. To find the location nearest you, <a href=" https://a816-healthpsi.nyc.gov/NYCSiteLocator">click here</a></p>
+      <p class="color-lite"><i id="check2" class="fa fa-check-circle-o fa-lg pt-10" aria-hidden="true"></i>Many community-based organizations offer naloxone & trainings for free. <a href="mailto:rosanne@sipcw.org">Please contact</a> the Staten Island Partnership for Community Wellness for more information.</p>
+      <p class="color-lite" style="padding-bottom: 7%;"><i id="check2" class="fa fa-check-circle-o fa-lg" aria-hidden="true"></i>Most pharmacies on Staten Island offer naloxone without a prescription. To find the location nearest you, <a href=" https://a816-healthpsi.nyc.gov/NYCSiteLocator">click here</a></p>
     </div>
   </div>
-  
-  
 </section>
 
     <!-- Footer -->
@@ -453,7 +519,7 @@
       <div class="row nomargin nopadding">
         <div class="col-md-4">
           <div class="footer-cont">
-            <img class="da-photo" src="img/DA-photo.jpg" alt="da's photo">
+            <a href="learn-more.html#da-bio"><img class="da-photo" src="img/DA-photo.jpg" alt="da's photo"></a>
             <p class="intro pb-10">Richmond County District Attorney<br>Michael E. McMahon</p>
             <a href="http://rcda.nyc.gov/" class="footer-links">http://rcda.nyc.gov/</a>
           </div>
@@ -462,26 +528,25 @@
           <div class="footer-cont">
             <h4>Pages</h4>
             <ul>
-              <li><a href="#">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="ineed-help.html">I Need Help</a></li>
-              <li><a href="#">My Loved One Needs Help</a></li>
-              <li><a href="#">I Want To Help</a></li>
-              <li><a href="#">I Want To Learn More</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="loved-one-help.html">My Loved One Needs Help</a></li>
+              <li><a href="iwant-to-help.html">I Want a Yard Sign</a></li>
+              <li><a href="want-yard-sign.html">I Want To Help</a></li>
+              <li><a href="learn-more.html">Learn More</a></li>
+              <li><a href="contact-us.html">Contact</a></li>
             </ul>
           </div>
         </div>
         <div class="col-md-4">
           <div class="footer-cont">
             <h4>Contact Us</h4>
-            <p class="contact-info"><i class="fa fa-map-marker"></i> Richmond County District Attorney’s Office<br>130 Stuvesant Place<br>Staten Island, NY 10301</p>
+            <p class="contact-info"><i class="fa fa-map-marker"></i> Richmond County District Attorney’s Office<br>130 Stuyvesant Place<br>Staten Island, NY 10301</p>
             <p class="contact-info"><i class="fa fa-phone"></i> 718 556 7113</p>
             <p class="contact-info"><i class="fa fa-envelope"></i> <a class="footer-links" href="mailto:sihopecampaign@gmail.com">sihopecampaign@gmail.com</a></p>
             <div class="socials footer-socials">
-              <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-              <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-             <!--  <a href="#"><i class="fa fa-google-plus"></i></a> -->
-              <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+              <a href="https://twitter.com/SIHOPECampaign" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com/sihopecampaign/" target="_blank"><i class="fa fa-instagram"></i></a>
             </div>
             </div> <!-- end socials -->
           </div>
@@ -490,7 +555,7 @@
     </div>
   <div class="footer-bottom">
     <div class="container">
-      <div class="row nomargin nopadding">
+      <div class="row">
         <div class="col-lg-12">
           <p class="text-left">Copyright @ 2017 Richmond County District Attorneys Office. All Rights Reserved</p>
         </div>
@@ -509,7 +574,6 @@
   <script src="js/jquery-2.1.1.js"></script>
 <script src="js/masonry.pkgd.min.js"></script>
 <script src="js/jquery.flexslider-min.js"></script>
-<script src="js/main.js"></script> <!-- Resource jQuery -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>

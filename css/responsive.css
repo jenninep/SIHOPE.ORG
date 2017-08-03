@@ -17,9 +17,25 @@
   .coming-soon-title{
     font-size: 70px;
   }
+  .sign-icons{
+    height: 120px;
+  }
+  .contact-us-text {
+    font-size: 19px;
+    line-height: 30px;
+  }
+  .contact-header {
+    padding-top: 18px;
+    font-size: 19px;
+  }
+}
+@media (max-width: 1300px) {
+  .contact-sign-row{
+    padding: 2% 0 0;
+  }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1254px) {
   .navbar-nav > li > a {
     padding: 0px 12px;
     font-size: 11px;
@@ -30,15 +46,42 @@
   .main-wrapper-onepage.angles .result-box {
     padding: 40% 0;
   }
+  .group-wrap{
+    padding:0;
+  }
 }
-@media (max-width: 1024px) {
-}
- 
+@media (max-width: 1065px) {
 
+  .si-logo {
+    font-size: 24px;
+  }
+.contact-us-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .contact-header{
+    padding-top: 11px;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 968px) {
+  hr{
+    margin-bottom: 6px;
+  }
+  .contact-us-text{
+    line-height: 18px;
+  }
+}
+
+ 
 @media (max-width: 991px) {
   .section-wrap,
   .section-wrap-mp {
     background-attachment: scroll;
+  }
+  .flex-row{
+    display: inline-block;
   }
   .section-wrap {
     padding: 90px 0;
@@ -247,12 +290,56 @@
   .chasi-div {
     padding: 5% 0% 0% 0%;
 }
-
+.involved-icons{
+   padding: 6%;
   }
+  .involved-wrap, .clipboard-wrap{
+    text-align: center;
+  }
+  .row-houses{
+    padding: 24% 0;
+  }
+  
+  .pad-for-grass{
+    padding-bottom: 0;
+  }
+.da-pad {
+    padding:14% 0 0 0;
+  }
+  .grass{
+      background-image: none;
+  }
+  .sign-col{
+    position: inherit;
+  }
+  .sign{
+    display: none;
+  }
+  .sign-no-stick{
+    display: inline-table;
+    padding-bottom: 2%;
+  }
+  .section-wrap{
+    padding-bottom: 20px;
+  }
+  .sign-in-grass{
+    padding-left: 6%;
+  }
+
+}
 @media(max-width: 800px) {
 }
 
 @media (max-width: 768px) {
+  .sign-icons{
+    padding: 3%
+  }
+  .sign-div{
+    padding: 0;
+  }
+  .group-col-pad{
+  padding: 0 8px;
+  }
 }
   
 @media (max-width: 767px) {
@@ -355,16 +442,30 @@
   .carousel-control.right {
     left: 32%;
   }
+   .group-col-pad{
+    padding: 2% 2%;
+  }
+   .contact-sign{
+    display: none;
+  }
+  .contact-us-info{
+    position: static;
+  } 
 
+   
 }
-@media (max-width: 732px) {
-}
+
+
+
+
 @media (max-width: 736px) {
   
 }
 
 @media only screen and (max-width: 600px){
 .nav-tabs > li{ margin-bottom:24px;}
+
+
 }
 @media (max-width: 640px) {
   .overlay-menu ul li a {
@@ -376,6 +477,7 @@
   .intro.style-2 .intro-text p {
     font-size: 24px;
   }
+
 
 }
 
@@ -461,9 +563,8 @@
   .section-wrap {
     padding: 40px 0;
 }
-.coming-soon-title {
+  .coming-soon-title {
     font-size: 39px;
-
   }
   .talk-col{
   padding-left:15px;
@@ -480,6 +581,46 @@
   .form-btn {
     float:none;
   }
+  .da-bg{
+    background-size: cover;
+  }
+  .da{
+    padding-left: 13%;
+  }
+  .da-pad {
+    padding: 7% 0 0 0;
+  }
+  .da{
+    padding-top:5%;
+
+  }
+  
+  .socials-wrap{
+    padding-top: 0;
+  }
+  .contact-us-text{
+    font-size: 17px;
+    line-height: 23px;
+    padding-top: 7px;
+  }
+  .contact-header {
+    padding-top: 18px;
+    font-size: 16px;
+  }
+  
+  .contact-us-info {
+    top: 9%;
+  }
+  .sign-section{
+    padding: 0;
+  }
+  .contact-sign-row{
+    padding: 2% 0 0;
+  }
+   div.row.translate-row{
+    padding: 0 2% 2% 0;
+  }
+
 }
 
 @media (max-width: 375px) {
@@ -510,7 +651,9 @@
 } 
 .coming-soon-text{
   font-size: 16px;
-
+}
+.support-group-pic{
+  height: 135px;
 }
 
 }

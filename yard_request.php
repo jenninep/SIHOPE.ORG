@@ -5,6 +5,7 @@ if(count($_POST)>0) {
 	$email = $_POST['email'];
 	$phone = $_POST['phone'];
 	$address = $_POST['address'];
+  $city = $_POST['city'];
 	$zip = $_POST['zip'];
 	$amount = $_POST['amount'];
 	$size_small = $_POST['size_small'];
@@ -16,10 +17,12 @@ if(count($_POST)>0) {
 	"Email: ".$email ."\r\n".
 	"Phone: ".$phone ."\r\n".
 	"Address: ".$address ."\r\n".
+  "City: ".$city . "\r\n".
+  "Zip Code:".$zip . "\r\n". 
 	"Amount ".$amount ."\r\n".
 	"Size Small: ".$size_small ."\r\n".
 	"Size Medium: ".$size_medium ."\r\n".
-	"Size Medium: ".$size_large ."\r\n".
+	"Size Large: ".$size_large ."\r\n".
 	"Date:" . date("Y-m-d H:i:s");
 
 	$header =  "From: info@sihope.org" . "\r\n".
@@ -27,7 +30,7 @@ if(count($_POST)>0) {
 		   "X-Mailer: PHP/" .phpversion();
 
 	$from = "info@sihope.org";
-	$to = "jennine@optonline.net"; //sihopecampaign@gmail.com
+	$to = "sihopecampaign@gmail.com"; //sihopecampaign@gmail.com
 	mail($to, "Yard Sign Request", $message, $header);
 }
 ?>
@@ -57,10 +60,10 @@ if(count($_POST)>0) {
   <link rel="stylesheet" href="css/sliders.css">
   <link rel="stylesheet" href="css/style.css" />
   <link rel="stylesheet" href="css/style2.css" />
+  <link rel="stylesheet" href="css/j-forms.css">
   <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="css/spacings.css" />
   <link rel="stylesheet" href="css/animate.css" />
-  <link rel="stylesheet" href="css/j-forms.css">
   <link rel="stylesheet" href="css/color.css" />
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome-animation/0.0.10/font-awesome-animation.min.css">
@@ -146,7 +149,7 @@ if(count($_POST)>0) {
       <div class="col-md-12 text-center pb-30">
         <div class="nyc-banner-div">
          <h1 class="nyc-title" style="font-size:43px">Ready to <span class="yellow-text">help? </span></h1>
-           <p class="nyc-subtitle">Winning the battle against substance use & addiction on Staten Island<br> will take a borough-wide effort.</p>
+           <p class="nyc-subtitle font">Winning the battle against substance use & addiction on Staten Island<br> will take a borough-wide effort.</p>
          
         </div>
       </div>
@@ -159,42 +162,100 @@ if(count($_POST)>0) {
       <div class="col-md-12">
         <!-- Nav tabs -->
         <ul class="nav-tabs" role="tablist">
-          <li class="active"> <a href="#breakfast" data-toggle="tab">Request a Yard Sign</a> </li>
-          <li> <a href="#lunch" data-toggle="tab">Report Illegal Drug Activity</a> </li>
-          <li> <a href="#dessert" data-toggle="tab">Get Involved</a> </li>
+          <li class="active"> <a href="#yard-form" data-toggle="tab">Request a Yard Sign</a> </li>
+          <li> <a href="#drug-activity" data-toggle="tab">Report Illegal Drug Activity</a> </li>
+          <li> <a href="#get-involved" data-toggle="tab">Get Involved</a> </li>
         </ul>
         <!-- Tab panes -->
         <div class="tab-content">
-          <div class="tab-pane active" id="breakfast">
-            <div class="row nomargin nopadding">
-              <div class="col-md-6 talk-col col-md-offset-3">
-                <h2 class="text-center bottom-line">Thank you for your request.</h2>
-                <p class="text-center">Please allow up to 2 weeks for delivery.</p>
+          <div class="tab-pane active" id="yard-form">
+            <div class="row nomargin pb-100">
+              <div class="col-md-6 col-md-offset-3">
+                <h2 class="text-center bottom-line">Thank you for your request</h2>
+                <p class="text-center font-17">One of our volunteers will put up a sign as soon as possible.</p>
               </div>
             </div> 
-            <div class="form-wrapper">
-          </div>
+            
         </div>
             
         
           <!--tab-pane 1-->
           
           <!--Lunch menu-->
-          <div class="tab-pane" id="lunch">
-            <div class="row">
+          <div class="tab-pane" id="drug-activity">
+            <div class="row nomargin nopadding">
+              <div class="col-md-6 col-md-offset-3">
+                <h2 class="text-center bottom-line">report illegal drug activity</h2>
+                <p class="text-center font-17">If you are witnessing suspected drug activity in real time<br><strong> please call 911.</strong></p>
+              </div> 
+            </div>
+            <div class="row section-wrap">
+              <div class="col-md-4">
+                <img src="img/arrest-pic.jpg" alt="arrest-pic">
+              </div>
+              <div class="col-md-8">
+                <p>
+                  Anyone with information regarding illegal narcotic activity  can anonymously <a href="http://rcda.nyc.gov/initiatives/drughl.html" target="_blank"><strong>submit a report</strong></a> or call the <strong>RCDA Drug Hotline at (718) 876-5839.</strong> Our office has conducted multiple successful drug takedowns started from tips from concerned neighbors like you. Information that can help build strong investigations and prosecutions includes:
+                </p>
+                <p>
+                  <i class="fa fa-circle circle" aria-hidden="true"></i>The exact location<br>
+                  <i class="fa fa-circle circle" aria-hidden="true"></i>Names or descriptions of suspected dealer(s) and/or buyer(s)<br>
+                  <i class="fa fa-circle circle" aria-hidden="true"></i>What type of vehicle was involved, if any, and license plate numbers<br>
+                  <i class="fa fa-circle circle" aria-hidden="true"></i>What kind of product was sold<br></p>
+                <p class="pt-10"><strong>Visit the Richmond County District Attorney’s website to <a href="http://rcda.nyc.gov/initiatives/drughl.html" target="_blank">submit your report online.</a> All information is <strong>confidential. </strong></strong>You can help take illegal drugs off Staten Island streets. </p>
+              </div>
             </div>
           </div>
           <!--tab-pane 2-->
-          <!--dessert menu-->
-          <div class="tab-pane" id="dessert">
-            <div class="row">
+           <div class="tab-pane" id="get-involved">
+             <div class="row nomargin nopadding">
+              <div class="col-md-6 col-md-offset-3">
+                <h2 class="text-center bottom-line">get involved</h2>
+                <p class="text-center font-17">Even if you have not been directly impacted by the drug epidemic, there are many ways to get involved to help put an end to this crisis.</p>
+              </div> 
+             </div>
+              <div class="row involved-wrap">
+                <div class="col-md-2">
+                  <div>
+                   <img class="involved-icons" src="img/sign-icon.png" alt="sign-icon"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <p class="talk-header">Request a Yard Sign</p>
+                  <p class="pb-10">Show your support, and share this website for individuals looking for treatment and resources, by requesting a yard sign or campaign literature to share with your friends and family.</p>
+                </div>
+              </div>
+              <div class="row involved-wrap">
+                <div class="col-md-2">
+                  <div>
+                   <img class="involved-icons" src="img/TYSA-icon.png" alt="TYSA-icon"> 
+                  </div>
+                </div>
+                <div class="col-md-10">
+                  <p class="talk-header">Join the Tackling Youth Substance Abuse (TYSA) coalition</p>
+                  <p class="pb-10">Want to work on strategies to address drug use like poster campaigns, planning workshops, and helping write policy? Join a workgroup with the TYSA coalition. TYSA is a Staten Island group of organizations and community members formed to reduce youth and young adult drug use. If you don’t have much time, you can also volunteer to help with events and presentations. <a href="http://sipcw.org/tysa/volunteer/" target="-blank"><strong>Learn More</strong></a> </p>
+                </div>
+              </div>
+                
+                <div class="row clipboard-wrap">
+                <div class="col-md-2">
+                  <div>
+                   <img class="involved-icons" src="img/microphone.png" alt="microphone-icon"> 
+                  </div>
+                </div>
+                <div class="col-md-10 ">
+                  <p class="talk-header">Voice</p>
+                  <p class="pb-10">There are many opportunities to sign petitions, join advocacy trips to Albany, and educate yourself about treatment and recovery options. Advocate for yourself and your family by <a href="http://www.familiesinsupportoftreatment.com/contact/" target="_blank"><strong>joining Families in Support of Treatment.</strong></a>  You can also speak up by reaching out to your elected officials. Call or write a letter to your senator to voice your opinions about drug use and the criminal justice system. <a href="http://www.mygovnyc.org/" target="_blank"><strong>Visit Who Represents Me?</strong></a> for a list of contact information for Staten Island’s representatives in City Hall, Albany and Washington D.C. 
+
+                 <!--  Help us spread the word about <strong>SIHOPE.ORG</strong> by distributing literature and putting up yard signs in your community. To get involved please email <a href="mailto:sihopecampaign@gmail.com"><strong>sihopecampaign@gmail.com</strong></a> --></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-
+          
 
 
     
@@ -272,4 +333,5 @@ if(count($_POST)>0) {
  
 </body>
 </html>
+
 

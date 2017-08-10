@@ -103,7 +103,7 @@
 .noleftpad{
 	padding-left: 0;
 }
-#check1{
+.check1{
 	color: black;
 	padding: 0px 10px 0 0;
 }
@@ -156,7 +156,7 @@
     right: 33%;
 }
 .naloxone-text{
-	padding: 4% 4%;
+	padding: 40px 30px 30px;
 }
 .bg-dark-grey{
 	background-color:#414141;
@@ -291,13 +291,15 @@
 }
 .talk-imgs{
 	padding: 0px 0 15px 0; 
+  width: 100%;
 }
 
 .talk-questions{
 	font-style: italic;
 }
 .talk-div{
-	padding: 5%;
+	padding: 30px;
+  width: 100%;
 }
 .talk-col{
 	padding-left: 0;
@@ -333,8 +335,8 @@ min-width: 0;
     background-size: cover;
     text-align: center;
     padding: 10% 10%;
-
 }
+
 
 .form-wrapper{
 	padding: 2% 5%;
@@ -351,18 +353,11 @@ min-width: 0;
 	font-size: 17px;
 }
 .flex{
-    
-     /*display: -webkit-box;*/
-     display: -moz-box;display: -ms-flexbox;
-     display: flex; 
-     -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-      flex-wrap: wrap; 
-      -webkit-flex: 1 ;-ms-flex: 1 ;flex: 1 ;
-      -webkit-flex-flow: row wrap;
-   
-  
+  display: -moz-box;display: -ms-flexbox;
+  display: flex; 
+  -webkit-flex: 1 ;-ms-flex: 1 ;flex: 1 ;
 }
+
 .bridge-div{
 	display: flex;
 	display: -webkit-flex;
@@ -379,21 +374,7 @@ min-width: 0;
     background-size: cover;
     text-align: center;
     padding: 13% 10%;
-
 }
-/*.sign-row{*/
-/*	display: flex;
-    align-items: flex-end;
-     display: flex; 
-     flex-wrap: wrap; 
-     display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex: 1 0 auto;*/
-/*}*/
-
 
 .grass{
 	background-image: url(grass.png);
@@ -426,22 +407,12 @@ min-width: 0;
 .font-white{
 	color:white;
 }
-.da-pad{
-	padding: 13% 0px;
+.da-title{
+	position: absolute;
+  top: 40%;
 }
-.da-flex{
-    align-items: flex-end;
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */     /* TWEENER - IE 10 */
-    display: flex; 
-    flex-wrap: wrap; 
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-     flex: 1;
-    -webkit-flex: 1;
-    min-width: 0;
+.bio-pic-col{
+  float: right;
 }
 .contact-socials i{
 	 width: 55px;
@@ -673,8 +644,100 @@ div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span
 .sign-no-stick{
   display: none;
 }
+.no-left-pad{
+  padding-left: 0;
+}
+.landing-page-banner{
+  background-image: url(landing-page-banner.png);
+  background-size: cover;
+  text-align: center;
+  padding: 0% 0%;
+  background-repeat: no-repeat;
+}
 
+.landing-signs-div{
+  background-color: #fff884;
+  padding: 2% 0;
+  outline: 4px solid black;
+  outline-offset: -10px;
+  height: 190px;
+}
+.landing-signs-row{
+  padding: 0 14%;
+}
+.landing-icons{
+  height: 13em;
+  padding: 12px;
+}
+.landing-signs-col{
+  padding: 5px;
+}
+h6{
+  padding: 0px 35px;
+}
+.fa-caret-right{
+  padding-left: 5px;
+}
+.landing-grass{
+  margin-top: -3%;
+  width: 100%;
+}
+.no-side-pad{
+  padding-left: 0;
+  padding-right: 0;
+}
+.no-side-margin{
+  margin-left: 0;
+  margin-right: 0;
+}
+.landing-hvr-text{
+  color: #f3f0f0;
+  padding: 4% 3% 0%;
+  font-size: 16px;
+  line-height: 22px;
+}
+a.landing-hvr-link {
+  color: yellow;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: -14px;
+  position: inherit;
+}
+.landing-hvr-link:hover{
+  color: yellow;
+  }
+.landing-hvr-div{
+  background-color: yellow;
+}
+.top-landing-sign{
+  padding: 10% 0 0;
+  width: 26%;
+}
+.flower-overlay{
+  width: 30%;
+  float: right;
+  z-index: -1;
+  margin-top: -20%;
+}
+.font-40{
+  font-size: 40px;
+}
+.top-landing-sign-2{
+  display: none;
+}
+.sihope-wrap{
+  padding: 3% 4% 0;
+}
+.sihope-col{
+  padding: .5% 3% 1%;
+}
 
-
-
-    
+.sihope-icons{
+  height: 12em;
+  width: auto;
+  padding-bottom: 10px;
+}
+figcaption.landing-hvr-div{
+  border-top: solid 5px yellow;
+}
+ 

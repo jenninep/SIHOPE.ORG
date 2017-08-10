@@ -28,6 +28,12 @@
     padding-top: 18px;
     font-size: 19px;
   }
+  .landing-hvr-text {
+    color: #fff;
+    padding: 4% 2.5% 0%;
+    font-size: 19px;
+    line-height: 22px;
+  }
 }
 @media (max-width: 1300px) {
   .contact-sign-row{
@@ -325,14 +331,41 @@
   .sign-in-grass{
     padding-left: 6%;
   }
-
+   .contact-sign{
+    display: none;
+  }
+  .contact-us-info{
+    position: static;
+    padding: 2% 0 8% 0;
+  } 
+  .contact-us-text {
+    line-height: 28px;
+    font-size: 15px;
+    padding-top: 2%;
+  }
+  .contact-header{
+    font-size: 15px;
+    margin: 1%;
+    margin-top: 1%;
+  }
+  .landing-hvr-text {
+    color: #fff;
+    padding: 4% 2% 0%;
+    font-size: 19px;
+    line-height: 24px;
+  }
+  .top-landing-sign {
+    padding: 11% 0 0;
+    width: 39%;
+  }
 }
 @media(max-width: 800px) {
+  
 }
 
 @media (max-width: 768px) {
   .sign-icons{
-    padding: 3%
+    padding: 10%
   }
   .sign-div{
     padding: 0;
@@ -340,6 +373,14 @@
   .group-col-pad{
   padding: 0 8px;
   }
+  .check-left-pad{
+    padding-left: 0;
+  }
+  .top-landing-sign {
+    padding: 10% 0 0;
+    width: 43%;
+  }
+
 }
   
 @media (max-width: 767px) {
@@ -445,14 +486,28 @@
    .group-col-pad{
     padding: 2% 2%;
   }
-   .contact-sign{
+  
+  .flex{
+    display: inline-block;
+  }
+  .sign-icons{
+    padding: 3%
+  }
+  .da-bg{
+    background-size: cover;
+  }
+  .da-title{
+    position: inherit;
+    padding-top: 20px;
+  }
+  .top-landing-sign{
     display: none;
   }
-  .contact-us-info{
-    position: static;
-  } 
-
-   
+  .top-landing-sign-2{
+    display: inline-table;
+    width: 75%;
+    padding: 15% 0 2%;
+  }
 }
 
 
@@ -477,8 +532,13 @@
   .intro.style-2 .intro-text p {
     font-size: 24px;
   }
+}
 
-
+@media (max-width: 500px) {
+  .top-landing-sign-2{
+    width: 100%;
+    padding: 25% 0 2%;
+  }
 }
 
 
@@ -581,9 +641,7 @@
   .form-btn {
     float:none;
   }
-  .da-bg{
-    background-size: cover;
-  }
+  
   .da{
     padding-left: 13%;
   }
@@ -592,7 +650,6 @@
   }
   .da{
     padding-top:5%;
-
   }
   
   .socials-wrap{
@@ -608,9 +665,6 @@
     font-size: 16px;
   }
   
-  .contact-us-info {
-    top: 9%;
-  }
   .sign-section{
     padding: 0;
   }
@@ -618,7 +672,17 @@
     padding: 2% 0 0;
   }
    div.row.translate-row{
-    padding: 0 2% 2% 0;
+    padding-bottom:1%;
+  }
+  .contact-grass{
+    background-image: none;
+  }
+  .sign-icons{
+    padding: 5%
+    margin-top: 7%;
+  }
+  .naloxone-text {
+    padding: 10% 4%;
   }
 
 }
@@ -630,7 +694,10 @@
 }
 
 @media (max-width: 360px) {
- 
+ .landing-hvr-text {
+    padding: 4% 1% 0%;
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 320px) {
@@ -655,6 +722,10 @@
 .support-group-pic{
   height: 135px;
 }
+.landing-hvr-text {
+    padding: 4% 1% 0%;
+    font-size: 16px;
+  }
 
 }
 /*# sourceMappingURL=responsive.css.map */

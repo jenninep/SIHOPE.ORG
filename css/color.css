@@ -13,7 +13,7 @@ a,
 .works-grid.titles .work-description a:hover,
 #owl-related-works .work-description a:hover,
 .portfolio-description ul > li a:hover {
-	color: #efc911;
+	color: #ffd21a;
 }
 
 .socials a:hover i,
@@ -26,7 +26,7 @@ a,
 .btn:hover,
 .socials.footer-socials a:hover i {
 	background-color: #000;
-	color:#fae136;
+	color:#ffd21a;
 }
 
 
@@ -35,7 +35,7 @@ a,
 .navbar-nav > .active > a:focus,
 .navbar-nav > .active > a:hover,
 .menu-socials li > a:hover {
-	color: #f4ec3d !important;
+	color: #ffd21a !important;
 }
 
 

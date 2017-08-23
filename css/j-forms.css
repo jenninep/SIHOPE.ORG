@@ -234,7 +234,7 @@
 .j-forms input[type="search"]:hover,
 .j-forms input[type="url"]:hover,
 .j-forms textarea:hover,
-.j-forms select:hover { border: 2px solid rgba(244, 236, 39, 1); }
+.j-forms select:hover { border: 2px solid rgb(255, 210, 26); }
 
 .j-forms input[type="text"]:focus,
 .j-forms input[type="password"]:focus,
@@ -242,7 +242,7 @@
 .j-forms input[type="search"]:focus,
 .j-forms input[type="url"]:focus,
 .j-forms textarea:focus,
-.j-forms select:focus { border: 2px solid rgba(244, 236, 39, 1); }
+.j-forms select:focus { border: 2px solid rgb(255, 210, 26); }
 
 .j-forms .input textarea {
 	height:112px;
@@ -316,7 +316,7 @@
 =============================== */
 .j-forms .icon-left,
 .j-forms .icon-right {
-	color: #efc911;;
+	color: #ffd21a;
 	font-size:17px;
 	height:38px;
 	line-height:38px !important;
@@ -439,7 +439,7 @@
 
 .j-forms .primary-btn:hover.processing { background:#303f9f; cursor:wait; }
 
-.j-forms .file-button:hover + input { border:2px solid rgba(48,63,159,.6); }
+.j-forms .file-button:hover + input { border: 2px solid rgb(255, 210, 26); }
 
 .j-forms .secondary-btn,
 .j-forms .secondary-btn:hover,

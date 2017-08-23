@@ -6,8 +6,8 @@
 
 
 .nyc-btn {
-    font-size: 15px;
-    padding: 10px 23px;
+    font-size: 12px;
+    padding: 10px 17px;
     margin-top: 20px;
     font-family: Helvetica;
     font-weight:bold;
@@ -163,11 +163,11 @@
 }
 
 #check2{
-	color: #fae136;
+	color: #ffd21a;
 	padding: 0px 20px 0 0;
 }
 .yellow-text{
-	color: #f4ec3d;
+	color: #ffd21a;
 }
 .nyc-subtitle{
 	color: white;
@@ -207,14 +207,14 @@
 	color: white;
 }
 .sign-icons{
-	background-color: #fae136;
+	background-color: #fcd843;
     border-radius: 50%;
     padding: 6%;
     height: 105px;
 }
 
 .involved-icons{
-	background-color: #fae136;
+	background-color: #fcd843;
     border-radius: 50%;
     padding: 9%;
 }
@@ -261,7 +261,7 @@
 .nav-tabs > li > a:hover {
      border-color: #dddddd;
     color: #000;
-    background: #f4ec3d;
+    background: #fcd843;
     
 }
 
@@ -272,7 +272,7 @@
   font-weight: bold;
   cursor: default;
 	cursor: default;
-	background-color: #f4ec3d;
+	background-color: #fcd843;
 	border: 2px solid #ddd;
 	}
 }
@@ -330,11 +330,11 @@ min-width: 0;
 .talk-wrap{
 	padding: 0 5% 0% 5%;
 }
-.sign-banner{
-	background-image: url(sign-on-lawn.jpg);
+.mikes-diner{
+	background-image: url(mikes-diner.jpg);
     background-size: cover;
     text-align: center;
-    padding: 10% 10%;
+    padding: 9% 10%;
 }
 
 
@@ -419,7 +419,7 @@ min-width: 0;
     height: 55px;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-    background-color: #f4ec3d;
+    background-color: #fcd843;
     color: #060606;
     line-height: 55px;
     text-align: center;
@@ -450,7 +450,7 @@ min-width: 0;
 
 }
 .contact-socials a:hover i {
-  color: #f4ec3d;
+  color: #fcd843;
   background-color: #000;
 -webkit-transition: all 0.3s ease-in-out;
 -moz-transition: all 0.3s ease-in-out;
@@ -503,7 +503,7 @@ hr{
     margin-top: 15px;
     margin-bottom: 5px;
     border: 0;
-    border-top: 3px solid #fae136;
+    border-top: 3px solid #fcd843;
     width: 20%;
    }
 
@@ -521,7 +521,7 @@ hr{
 	width: 100%;
 }
 .sizeError{
-  border: 2px solid #fae136;
+  border: 2px solid #fcd843;
   text-align: center;
   background-color: rgba(244, 236, 61, 0.28);
   box-shadow: 3px 3px 5px #ddd;
@@ -572,7 +572,7 @@ div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span
 }
 .recovery-hr{
     border: 0;
-    border-top: 3px solid #f4ec3d;
+    border-top: 3px solid #fcd843;
     width: 20%;
 }
 .recovery-info{
@@ -582,7 +582,7 @@ div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span
 }
     
 .border-bottom{
-  border-bottom: 6px solid #f4ec3d;
+  border-bottom: 6px solid #fcd843;
 }
 .recovery-header{
   text-transform: uppercase;
@@ -656,14 +656,14 @@ div#google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span
 }
 
 .landing-signs-div{
-  background-color: #fff884;
+  background-color: rgb(254, 215, 67);
   padding: 2% 0;
   outline: 4px solid black;
   outline-offset: -10px;
   height: 190px;
 }
 .landing-signs-row{
-  padding: 0 14%;
+  padding: 0 13%;
 }
 .landing-icons{
   height: 13em;
@@ -691,20 +691,20 @@ h6{
   margin-right: 0;
 }
 .landing-hvr-text{
-  color: #f3f0f0;
-  padding: 4% 3% 0%;
+  color: #fff;
+  padding: 4% 2% 0%;
   font-size: 16px;
   line-height: 22px;
 }
 a.landing-hvr-link {
-  color: yellow;
+  color: #fcd843;
   font-size: 16px;
   font-weight: bold;
   margin-top: -14px;
   position: inherit;
 }
 .landing-hvr-link:hover{
-  color: yellow;
+  color: #fcd843;
   }
 .landing-hvr-div{
   background-color: yellow;
@@ -737,7 +737,54 @@ a.landing-hvr-link {
   width: auto;
   padding-bottom: 10px;
 }
-figcaption.landing-hvr-div{
-  border-top: solid 5px yellow;
+/*figcaption.landing-hvr-div{
+  border-top: solid 5px #fcd843;
+}*/
+/*.iphone-sign{
+  display: none;
+}*/
+.learn-more-phone{
+  display: none;
 }
- 
+ .aa-pad{
+  padding: 4% 12% 4% 15%;
+ }
+ .nyc-well-h5{
+  text-align: center;
+ }
+ .pps-row{
+  padding: 1% 7%;
+ }
+ .pps-icons-col{
+   padding-top: 2%;
+   padding-left: 5%;
+ }
+ .pps-icons{
+    padding-bottom: 3%;
+ }
+ .pps-logo{
+  width: 55%;
+  padding-top: 4%;
+ }
+ .mikes-diner-phone{
+  display: none;
+ }
+ .mikes-diner-title {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  left: 0;
+  font-size: 46px;
+ }
+ .mikes-diner-sub-title {
+  top: 45%;
+  right: 0;
+  left: 0;
+  position: absolute;
+  line-height: normal;
+ }
+
+
+
+
+

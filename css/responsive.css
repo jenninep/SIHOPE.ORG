@@ -1,6 +1,14 @@
-@media (min-width: 1600px) {
+@media (max-width: 1800px) {
   .navbar-nav > li > a{
-    font-size: 17px;
+    font-size: 15px;
+    letter-spacing: .5px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .navbar-nav > li > a{
+    font-size: 13px;
+    letter-spacing: .5px;
   }
   .lawn-banner{
     padding-top: 5.6%;
@@ -35,9 +43,13 @@
     line-height: 22px;
   }
 }
-@media (max-width: 1300px) {
+@media (max-width: 1400px) {
   .contact-sign-row{
     padding: 2% 0 0;
+  }
+  .navbar-nav > li > a{
+    font-size: 12px;
+    letter-spacing: .5px;
   }
 }
 
@@ -69,6 +81,11 @@
     padding-top: 11px;
     font-size: 13px;
     margin-bottom: 0;
+  }
+}
+@media (max-width: 1024px) {
+  .landing-signs-row {
+    padding: 0 5%;
   }
 }
 @media (max-width: 968px) {
@@ -309,7 +326,7 @@
   .pad-for-grass{
     padding-bottom: 0;
   }
-.da-pad {
+  .da-pad {
     padding:14% 0 0 0;
   }
   .grass{
@@ -358,6 +375,12 @@
     padding: 11% 0 0;
     width: 39%;
   }
+  .pps-icons-col{
+    padding-top: 13%;
+  }
+  .pps-row{
+    text-align: center;
+  }
 }
 @media(max-width: 800px) {
   
@@ -379,6 +402,15 @@
   .top-landing-sign {
     padding: 10% 0 0;
     width: 43%;
+  }
+  .request-sign-img{
+    padding-top: 1%;
+  }
+  .mikes-diner-sub-title {
+    top: 53%;
+    padding: 0 23%;
+    font-size: 17px;
+    line-height: normal;
   }
 
 }
@@ -532,12 +564,19 @@
   .intro.style-2 .intro-text p {
     font-size: 24px;
   }
+  .request-sign-img{
+    padding-top: 5%;
+  }
 }
+
 
 @media (max-width: 500px) {
   .top-landing-sign-2{
     width: 100%;
-    padding: 25% 0 2%;
+    padding: 25% 11% 2%;
+  }
+  .request-sign-img{
+    padding-top: 11%;
   }
 }
 
@@ -678,18 +717,70 @@
     background-image: none;
   }
   .sign-icons{
-    padding: 5%
+    padding: 5%;
     margin-top: 7%;
   }
   .naloxone-text {
     padding: 10% 4%;
   }
+ 
+  .iphone-sign{
+    display: initial;
+     padding-top: 11%
+  }
+ 
+  .aa-pad{
+    padding: 4% 2% 4% 2%;
+  }
+  .nyc-well-h5{
+    font-size: 15px;
+    line-height: 26px;
+    padding: 2% 0;
+  }
+  .learn-more-banner{
+    padding-top: 13%;
+  }
+  .top-landing-sign-2 {
+    padding: 25% 2% 2%;
+  }
+  .mikes-diner-photo{
+    display: none;
+  }
+  .mikes-diner-phone{
+    display: inherit;
+    padding: 10% 0 0;
 
+  }
+  .mikes-diner-title {
+    top: 32%;
+    font-size: 26px;
+  }
+  .mikes-diner-sub-title {
+    top: 46%;
+    padding: 0 9%;
+    font-size: 14px;
+    line-height: inherit;
+  }
+  .nav-tabs{
+    margin: 50px 0px 7px 0px;
+  }
 }
 
 @media (max-width: 375px) {
   .help2-img{
     width: 425px;
+  }
+  .top-landing-sign-2 {
+    padding: 25% 2% 2%;
+  }
+  .request-sign-img {
+    padding-top: 15%;
+  }
+  .mikes-diner-sub-title {
+    top: 49%;
+  }
+  .mikes-diner-phone{
+    padding: 17% 0 0;
   }
 }
 
